@@ -4,7 +4,7 @@ const rotas = app => {
     app.get('/diario', (req,res) => {
         console.log('get all rest')
         service.getAllDiario(res);
-        res.status(200).json("ok")
+        //res.status(200).json("ok")
     })
 
     app.get('/diario/:id', (req,res) => {
